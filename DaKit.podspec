@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
-                       This is a collection of tools that you can use to simplify your developing process, I will continuously update this Kit~
+                       This is a collection of tools which can simplify your developing process, I will continuously update this Kit~
+                       DESC
 
   s.homepage         = 'https://github.com/davidli-/DaKit'
   s.screenshots      = 'https://davidlii.nos-eastchina1.126.net/pic_DaKit.png'
