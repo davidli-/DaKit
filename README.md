@@ -27,3 +27,5 @@ davidli-, 1182622460@qq.com
 ## License
 
 DaKit is available under the MIT license. See the LICENSE file for more info.
+
+davidlii's serialize &amp; copy tools for Objective-C developing~
