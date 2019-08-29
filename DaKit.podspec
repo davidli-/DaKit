@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Kit to simplify your developing process, I will continuously update this Kit.
+                       Kit to simplify your developing process, I will continuously update this Kit.
                        DESC
 
   s.homepage         = 'https://github.com/davidli-/DaKit'
