@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DaKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DaKit.'
+  s.summary          = 'davidlii\'s Kit for iOS developing~'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Kit to simplify your developing process, I will continuously update this Kit.
                        DESC
 
   s.homepage         = 'https://github.com/davidli-/DaKit'
   s.screenshots      = 'https://davidlii.nos-eastchina1.126.net/pic_DaKit.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'davidli-' => 'macmafia@sina.cn' }
+  s.author           = { 'davidlii' => 'macmafia@sina.cn' }
   s.source           = { :git => 'https://github.com/davidli-/DaKit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://davidlii.cn'
 
