@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DaKit_Example' do
+  pod 'DaKit', :path => '../'
+
+  target 'DaKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
