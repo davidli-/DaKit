@@ -11,11 +11,14 @@
 
 ```
 #import "Card.h"
+
+//引入头文件
 #import <DaKit/DaSerialize.h>
 #import <DaKit/DaKakashi.h>
 
 @implementation Card
 
+//使用宏
 DaSerialize() //serialize
 DaKakashi()   //copy
 
@@ -33,11 +36,14 @@ DaKakashi()   //copy
     card.cardNumber = 100;
     card.money = 50000000;
 
+    // 序列化
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:card];
     Card *card2 = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-
+    
+    // 复制
     Card *card3 = [card2 copy];
 
+    // 获取类的信息
     NSArray *ivars = [DaClassInfo ivarListWithClass:[Card class]];
     NSArray *props = [DaClassInfo propertyListWithClass:[Card class]];
     NSArray *meths = [DaClassInfo methodListWithClass:[Card class]];
@@ -54,7 +60,7 @@ DaKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DaKit', :source => 'https://github.com/davidli-/davidlii.git'
+pod 'DaKit'
 ```
 
 ## Author
