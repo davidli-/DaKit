@@ -87,9 +87,7 @@ static const char kEventName;
         }
         self.mForbidTouch = YES;
         
-        @weakify(self)
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(self.touchInterval * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            @strongify(self)
             self.mForbidTouch = NO;
         });
     }
