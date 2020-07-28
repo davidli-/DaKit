@@ -1,5 +1,5 @@
 PODS:
-  - DaKit (0.1.0)
+  - DaKit (0.1.1)
 
 DEPENDENCIES:
   - DaKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DaKit: c43a6b86307b314d5c010fc5d6c06510ffcc7f51
+  DaKit: 7df906afcba6c101f815dcac9bac10904d675301
 
 PODFILE CHECKSUM: a5a29e3ed391a64278d3ac808f994392bd8512a6
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.3

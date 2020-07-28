@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DaKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'davidlii\'s Kit for iOS developing~'
 
 # This description is used to generate tags and improve search results.
