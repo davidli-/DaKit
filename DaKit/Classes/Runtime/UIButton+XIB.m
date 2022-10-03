@@ -66,11 +66,6 @@ static const char kEventName;
         // 把自己视图上的点转换成子视图上的点
         CGPoint childP = [self convertPoint:point toView:childView];
         
-        //label的interaction enable默认被关闭，这里让label响应触摸事件
-        if ([childView isKindOfClass:NSClassFromString(@"ASDFResponsibleLabel")] &&
-            [childView pointInside:childP withEvent:event]) {
-            return childView;
-        }
         UIView *fitView = [childView hitTest:childP withEvent:event];
         if (fitView) {
             return fitView;
